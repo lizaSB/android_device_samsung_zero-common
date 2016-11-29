@@ -145,8 +145,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
     $(BLOB_PATH)/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
-    $(BLOB_PATH)/lib/hw/camera.vendor.universal7420.so:system/lib/hw/camera.vendor.universal7420.so \
-    $(BLOB_PATH)/lib64/hw/camera.vendor.universal7420.so:system/lib64/hw/camera.vendor.universal7420.so \
+    $(BLOB_PATH)/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
+    $(BLOB_PATH)/lib64/hw/camera.goldfish.so:system/lib64/hw/camera.goldfish.so.so \
+    $(BLOB_PATH)/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
+    $(BLOB_PATH)/lib64/hw/camera.goldfish.jpeg.so:system/lib64/hw/camera.goldfish.jpeg.so \
+    $(BLOB_PATH)/lib/hw/camera.universal7420.so:system/lib/hw/camera.universal7420.so \
+    $(BLOB_PATH)/lib64/hw/camera.universal7420.so:system/lib64/hw/camera.universal7420.so \
     $(BLOB_PATH)/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     $(BLOB_PATH)/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
     $(BLOB_PATH)/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -155,11 +159,30 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
     $(BLOB_PATH)/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     $(BLOB_PATH)/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
+    $(BLOB_PATH)/lib/libarccamera.so:system/lib/libarccamera.so \
+    $(BLOB_PATH)/lib64/libarccamera.so:system/lib64/libarccamera.so \
+    $(BLOB_PATH)/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
+    $(BLOB_PATH)/lib64/libseccamera_jni.so:system/lib64/libseccamera_jni.so \
+    $(BLOB_PATH)/lib/libseccameracore.so:system/lib/libseccameracore.so \
     $(BLOB_PATH)/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(BLOB_PATH)/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
     $(BLOB_PATH)/lib/libuniplugin.so:system/lib/libuniplugin.so \
     $(BLOB_PATH)/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
-    $(BLOB_PATH)/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin
+    $(BLOB_PATH)/lib64/libsdid.so:system/lib64/libsdid.so \
+    $(BLOB_PATH)/vendor/firmware/companion_2p2_master_setfile.bin:system/vendor/firmware/companion_2p2_master_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_2p2_mode_setfile.bin:system/vendor/firmware/companion_2p2_mode_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_fw_2p2_evt1.bin:system/vendor/firmware/companion_fw_2p2_evt1.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_fw_imx240_evt1.bin:system/vendor/firmware/companion_fw_imx240_evt1.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_imx240_master_setfile.bin:system/vendor/firmware/companion_imx240_master_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_imx240_mode_setfile.bin:system/vendor/firmware/companion_imx240_mode_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/fimc_is_fw2_2p2.bin:system/vendor/firmware/fimc_is_fw2_2p2.bin \
+    $(BLOB_PATH)/vendor/firmware/fimc_is_fw2_imx240.bin:system/vendor/firmware/fimc_is_fw2_imx240.bin \
+    $(BLOB_PATH)/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
+    $(BLOB_PATH)/vendor/firmware/ois_fw_dom.bin:system/vendor/firmware/ois_fw_dom.bin \
+    $(BLOB_PATH)/vendor/firmware/ois_fw_sec.bin:system/vendor/firmware/ois_fw_sec.bin \
+    $(BLOB_PATH)/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin \
+    $(BLOB_PATH)/vendor/firmware/setfile_4e6.bin:system/vendor/firmware/setfile_4e6.bin \
+    $(BLOB_PATH)/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin
 
 # Consumer IR
 PRODUCT_COPY_FILES += \
@@ -191,13 +214,6 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib64/hw/gps.universal7420.so:system/lib64/hw/gps.universal7420.so \
     $(BLOB_PATH)/lib/libwrappergps.so:system/lib/libwrappergps.so \
     $(BLOB_PATH)/lib64/libwrappergps.so:system/lib64/libwrappergps.so
-
-# Media
-PRODUCT_COPY_FILES += \
-    $(BLOB_PATH)/vendor/firmware/fimc_is_fw2_imx240.bin:system/vendor/firmware/fimc_is_fw2_imx240.bin \
-    $(BLOB_PATH)/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
-    $(BLOB_PATH)/vendor/firmware/setfile_4e6.bin:system/vendor/firmware/setfile_4e6.bin \
-    $(BLOB_PATH)/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin
 
 # Memory
 PRODUCT_COPY_FILES += \
