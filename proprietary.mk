@@ -143,23 +143,23 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
+    $(BLOB_PATH)/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
+    $(BLOB_PATH)/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
+    $(BLOB_PATH)/lib/hw/camera.vendor.universal7420.so:system/lib/hw/camera.vendor.universal7420.so \
+    $(BLOB_PATH)/lib64/hw/camera.vendor.universal7420.so:system/lib64/hw/camera.vendor.universal7420.so \
     $(BLOB_PATH)/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     $(BLOB_PATH)/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
     $(BLOB_PATH)/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(BLOB_PATH)/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
     $(BLOB_PATH)/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
     $(BLOB_PATH)/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
+    $(BLOB_PATH)/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    $(BLOB_PATH)/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
     $(BLOB_PATH)/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(BLOB_PATH)/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
     $(BLOB_PATH)/lib/libuniplugin.so:system/lib/libuniplugin.so \
     $(BLOB_PATH)/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
     $(BLOB_PATH)/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin
-#    $(BLOB_PATH)/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
-#    $(BLOB_PATH)/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
-#    $(BLOB_PATH)/lib/hw/camera.vendor.universal7420.so:system/lib/hw/camera.vendor.universal7420.so \
-#    $(BLOB_PATH)/lib64/hw/camera.vendor.universal7420.so:system/lib64/hw/camera.vendor.universal7420.so \
-#    $(BLOB_PATH)/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-#    $(BLOB_PATH)/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
 
 # Consumer IR
 PRODUCT_COPY_FILES += \
