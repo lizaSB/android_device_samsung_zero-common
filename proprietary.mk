@@ -168,6 +168,10 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
     $(BLOB_PATH)/lib/libuniplugin.so:system/lib/libuniplugin.so \
     $(BLOB_PATH)/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
+    $(BLOB_PATH)/lib/libexif.so:system/lib/libexif.so \
+    $(BLOB_PATH)/lib64/libexif.so:system/lib64/libexif.so \
+    $(BLOB_PATH)/lib/libexifa.so:system/lib/libexifa.so \
+    $(BLOB_PATH)/lib64/libexifa.so:system/lib64/libexifa.so \
     $(BLOB_PATH)/lib64/libsdid.so:system/lib64/libsdid.so \
     $(BLOB_PATH)/vendor/firmware/companion_2p2_master_setfile.bin:system/vendor/firmware/companion_2p2_master_setfile.bin \
     $(BLOB_PATH)/vendor/firmware/companion_2p2_mode_setfile.bin:system/vendor/firmware/companion_2p2_mode_setfile.bin \
