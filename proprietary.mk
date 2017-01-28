@@ -195,17 +195,13 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    $(BLOB_PATH)/bin/fingerprintd:system/bin/fingerprintd \
-    $(BLOB_PATH)/lib/libbauthserver.so:system/lib/libbauthserver.so \
+    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
+    $(BLOB_PATH)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     $(BLOB_PATH)/lib64/libbauthserver.so:system/lib64/libbauthserver.so \
-    $(BLOB_PATH)/lib/libbauthtzcommon.so:system/lib/libbauthtzcommon.so \
     $(BLOB_PATH)/lib64/libbauthtzcommon.so:system/lib64/libbauthtzcommon.so \
-    $(BLOB_PATH)/lib/libsynaFpSensorTestNwd.so:system/lib/libsynaFpSensorTestNwd.so \
     $(BLOB_PATH)/lib64/libsynaFpSensorTestNwd.so:system/lib64/libsynaFpSensorTestNwd.so \
-    $(BLOB_PATH)/lib/libegis_fp_normal_sensor_test.so:system/lib/libegis_fp_normal_sensor_test.so \
     $(BLOB_PATH)/lib64/libegis_fp_normal_sensor_test.so:system/lib64/libegis_fp_normal_sensor_test.so \
-    $(BLOB_PATH)/lib/hw/fingerprint.universal7420.so:system/lib/hw/fingerprint.universal7420.so \
-    $(BLOB_PATH)/lib64/hw/fingerprint.universal7420.so:system/lib64/hw/fingerprint.universal7420.so
+    $(BLOB_PATH)/lib64/hw/fingerprint.vendor.exynos5.so:system/lib64/hw/fingerprint.vendor.exynos5.so
 
 # Graphics
 PRODUCT_COPY_FILES += \
@@ -229,40 +225,12 @@ PRODUCT_COPY_FILES += \
 # Mobicore
 PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
-    $(BLOB_PATH)/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000014.tlbin:system/app/mcRegistry/ffffffff000000000000000000000014.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000018.tlbin:system/app/mcRegistry/ffffffff000000000000000000000018.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff00000000000000000000001f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000001f.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000021.tlbin:system/app/mcRegistry/ffffffff000000000000000000000021.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     $(BLOB_PATH)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
-    $(BLOB_PATH)/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    $(BLOB_PATH)/bin/cs:system/bin/cs \
     $(BLOB_PATH)/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    $(BLOB_PATH)/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    $(BLOB_PATH)/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     $(BLOB_PATH)/lib/libMcClient.so:system/lib/libMcClient.so \
     $(BLOB_PATH)/lib64/libMcClient.so:system/lib64/libMcClient.so
-
-#    $(BLOB_PATH)/app/mcRegistry/ffffffff000000000000000000000015.tlbin:system/#app/mcRegistry/ffffffff000000000000000000000015.tlbin
 
 # NFC
 PRODUCT_COPY_FILES += \
@@ -282,35 +250,6 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib64/hw/sensors.universal7420.so:system/lib64/hw/sensors.universal7420.so \
     $(BLOB_PATH)/bin/bcm_sensorhub_a2.patch:system/bin/bcm_sensorhub_a2.patch \
     $(BLOB_PATH)/bin/lhd:system/bin/lhd
-
-# Trustlet Connector
-PRODUCT_COPY_FILES += \
-    $(BLOB_PATH)/lib/libtlc_direct_comm.so:system/lib/libtlc_direct_comm.so \
-    $(BLOB_PATH)/lib64/libtlc_direct_comm.so:system/lib64/libtlc_direct_comm.so \
-    $(BLOB_PATH)/lib/libtlc_proxy_comm.so:system/lib/libtlc_proxy_comm.so \
-    $(BLOB_PATH)/lib64/libtlc_proxy_comm.so:system/lib64/libtlc_proxy_comm.so \
-    $(BLOB_PATH)/lib/libtlc_proxy_tui.so:system/lib/libtlc_proxy_tui.so \
-    $(BLOB_PATH)/lib64/libtlc_proxy_tui.so:system/lib64/libtlc_proxy_tui.so \
-    $(BLOB_PATH)/lib/libtlc_spay.so:system/lib/libtlc_spay.so \
-    $(BLOB_PATH)/lib64/libtlc_spay.so:system/lib64/libtlc_spay.so \
-    $(BLOB_PATH)/lib/libtlc_t2_ks_mi.so:system/lib/libtlc_t2_ks_mi.so \
-    $(BLOB_PATH)/lib64/libtlc_t2_ks_mi.so:system/lib64/libtlc_t2_ks_mi.so \
-    $(BLOB_PATH)/lib/libtlc_tima_atn.so:system/lib/libtlc_tima_atn.so \
-    $(BLOB_PATH)/lib64/libtlc_tima_atn.so:system/lib64/libtlc_tima_atn.so \
-    $(BLOB_PATH)/lib/libtlc_tima_pkm.so:system/lib/libtlc_tima_pkm.so \
-    $(BLOB_PATH)/lib64/libtlc_tima_pkm.so:system/lib64/libtlc_tima_pkm.so \
-    $(BLOB_PATH)/lib/libtlc_tima_tui.so:system/lib/libtlc_tima_tui.so \
-    $(BLOB_PATH)/lib64/libtlc_tima_tui.so:system/lib64/libtlc_tima_tui.so \
-    $(BLOB_PATH)/lib/libtlc_tz_ccm.so:system/lib/libtlc_tz_ccm.so \
-    $(BLOB_PATH)/lib64/libtlc_tz_ccm.so:system/lib64/libtlc_tz_ccm.so \
-    $(BLOB_PATH)/lib/libtlc_tz_dcm.so:system/lib/libtlc_tz_dcm.so \
-    $(BLOB_PATH)/lib64/libtlc_tz_dcm.so:system/lib64/libtlc_tz_dcm.so \
-    $(BLOB_PATH)/lib/libtlc_tz_esecomm.so:system/lib/libtlc_tz_esecomm.so \
-    $(BLOB_PATH)/lib64/libtlc_tz_esecomm.so:system/lib64/libtlc_tz_esecomm.so \
-    $(BLOB_PATH)/lib/libtlc_tz_iccc.so:system/lib/libtlc_tz_iccc.so \
-    $(BLOB_PATH)/lib64/libtlc_tz_iccc.so:system/lib64/libtlc_tz_iccc.so \
-    $(BLOB_PATH)/lib/libtlc_tz_keystore.so:system/lib/libtlc_tz_keystore.so \
-    $(BLOB_PATH)/lib64/libtlc_tz_keystore.so:system/lib64/libtlc_tz_keystore.so
 
 # Widevine
 PRODUCT_COPY_FILES += \
