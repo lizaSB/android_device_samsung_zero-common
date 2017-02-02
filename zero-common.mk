@@ -143,10 +143,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lights.universal7420
 
-# Libstlport
-PRODUCT_PACKAGES += \
-    libstlport
-
 # MDNIE
 PRODUCT_PACKAGES += \
     AdvancedDisplay
