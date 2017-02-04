@@ -141,6 +141,53 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/vendor/firmware/bcm4358A3_V0064.0105.hcd:system/vendor/firmware/bcm4358A3_V0064.0105.hcd \
     $(BLOB_PATH)/vendor/firmware/bcm4358A3_V0064.0105_wisol.hcd:system/vendor/firmware/bcm4358A3_V0064.0105_wisol.hcd
 
+# Camera
+PRODUCT_COPY_FILES += \
+    $(BLOB_PATH)/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
+    $(BLOB_PATH)/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
+    $(BLOB_PATH)/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
+    $(BLOB_PATH)/lib64/hw/camera.goldfish.so:system/lib64/hw/camera.goldfish.so.so \
+    $(BLOB_PATH)/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
+    $(BLOB_PATH)/lib64/hw/camera.goldfish.jpeg.so:system/lib64/hw/camera.goldfish.jpeg.so \
+    $(BLOB_PATH)/lib/hw/camera.vendor.universal7420.so:system/lib/hw/camera.vendor.universal7420.so \
+    $(BLOB_PATH)/lib64/hw/camera.vendor.universal7420.so:system/lib64/hw/camera.vendor.universal7420.so \
+    $(BLOB_PATH)/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
+    $(BLOB_PATH)/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
+    $(BLOB_PATH)/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    $(BLOB_PATH)/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
+    $(BLOB_PATH)/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    $(BLOB_PATH)/lib64/libexynosv4l2.so:system/lib64/libexynosv4l2.so \
+    $(BLOB_PATH)/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    $(BLOB_PATH)/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
+    $(BLOB_PATH)/lib/libarccamera.so:system/lib/libarccamera.so \
+    $(BLOB_PATH)/lib64/libarccamera.so:system/lib64/libarccamera.so \
+    $(BLOB_PATH)/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
+    $(BLOB_PATH)/lib64/libseccamera_jni.so:system/lib64/libseccamera_jni.so \
+    $(BLOB_PATH)/lib/libseccameracore.so:system/lib/libseccameracore.so \
+    $(BLOB_PATH)/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
+    $(BLOB_PATH)/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
+    $(BLOB_PATH)/lib/libuniplugin.so:system/lib/libuniplugin.so \
+    $(BLOB_PATH)/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
+    $(BLOB_PATH)/lib/libexif.so:system/lib/libexif.so \
+    $(BLOB_PATH)/lib64/libexif.so:system/lib64/libexif.so \
+    $(BLOB_PATH)/lib/libexifa.so:system/lib/libexifa.so \
+    $(BLOB_PATH)/lib64/libexifa.so:system/lib64/libexifa.so \
+    $(BLOB_PATH)/lib64/libsdid.so:system/lib64/libsdid.so \
+    $(BLOB_PATH)/vendor/firmware/companion_2p2_master_setfile.bin:system/vendor/firmware/companion_2p2_master_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_2p2_mode_setfile.bin:system/vendor/firmware/companion_2p2_mode_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_fw_2p2_evt1.bin:system/vendor/firmware/companion_fw_2p2_evt1.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_fw_imx240_evt1.bin:system/vendor/firmware/companion_fw_imx240_evt1.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_imx240_master_setfile.bin:system/vendor/firmware/companion_imx240_master_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/companion_imx240_mode_setfile.bin:system/vendor/firmware/companion_imx240_mode_setfile.bin \
+    $(BLOB_PATH)/vendor/firmware/fimc_is_fw2_2p2.bin:system/vendor/firmware/fimc_is_fw2_2p2.bin \
+    $(BLOB_PATH)/vendor/firmware/fimc_is_fw2_imx240.bin:system/vendor/firmware/fimc_is_fw2_imx240.bin \
+    $(BLOB_PATH)/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
+    $(BLOB_PATH)/vendor/firmware/ois_fw_dom.bin:system/vendor/firmware/ois_fw_dom.bin \
+    $(BLOB_PATH)/vendor/firmware/ois_fw_sec.bin:system/vendor/firmware/ois_fw_sec.bin \
+    $(BLOB_PATH)/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin \
+    $(BLOB_PATH)/vendor/firmware/setfile_4e6.bin:system/vendor/firmware/setfile_4e6.bin \
+    $(BLOB_PATH)/vendor/firmware/setfile_imx240.bin:system/vendor/firmware/setfile_imx240.bin
+
 # Consumer IR
 PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/hw/consumerir.exynos5.so:system/lib/hw/consumerir.exynos5.so \
