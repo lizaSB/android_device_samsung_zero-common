@@ -95,8 +95,8 @@ PRODUCT_PACKAGES += \
     Gello
 
 # Camera
-PRODUCT_PACKAGES += \
-   camera.universal7420
+# PRODUCT_PACKAGES += \
+#    camera.universal7420
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
