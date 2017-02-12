@@ -189,9 +189,6 @@ PRODUCT_COPY_FILES += \
 
 # Widevine
 PRODUCT_COPY_FILES += \
-    $(BLOB_PATH)/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    $(BLOB_PATH)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    $(BLOB_PATH)/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     $(BLOB_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wifi
